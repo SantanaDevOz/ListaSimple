@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lista Simple</string>
+
+    <!--Principal-->
+    <string name="Numero">Digite un numero</string>
+    <string name="Btn_Agregar">Agregar</string>
+    <string name="Txtv_Ver">0, 0, 0</string>
+
+</resources>

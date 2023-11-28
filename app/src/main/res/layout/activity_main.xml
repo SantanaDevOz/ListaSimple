@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--Digitar el numero al nodo-->
+    <EditText
+        android:id="@+id/Numero"
+        android:layout_width="350dp"
+        android:layout_height="52dp"
+        android:hint="@string/Numero"
+        android:inputType="number"
+        android:maxLength="3"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.157"
+        android:autofillHints=""
+        />
+
+    <!--Agregar el numero al nodo-->
+    <Button
+        android:id="@+id/Btn_Agregar"
+        android:layout_width="246dp"
+        android:layout_height="60dp"
+        android:hint="@string/Btn_Agregar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.351" />
+
+    <!--Mostrar el numero de los nodos-->
+    <TextView
+        android:id="@+id/Txtv_Ver"
+        android:layout_width="114dp"
+        android:layout_height="29dp"
+        android:hint="@string/Txtv_Ver"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.256"
+        android:autofillHints=""
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
